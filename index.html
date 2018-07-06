@@ -3,451 +3,79 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Australian Depression Movement</title>
+    <title>Australian Depression Movement</title><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
     <link rel="icon" type="image/png" href="Group 2.png" />
-  <style>.projects-horizontal {
-      color:#313437;
-      background-color:#fff;
-    }
-    .navbar-brand {
-        display: inline-block;
-        padding-top: .3125rem;
-        padding-bottom: .3125rem;
-        margin-right: 1rem;
-        font-size: 1.1rem;
-        line-height: inherit;
-        white-space: nowrap;
-    }
-    .projects-horizontal p {
-      color:#7d8285;
-    }
-
-    .projects-horizontal h2 {
-      font-weight:bold;
-      margin-bottom:40px;
-      padding-top:40px;
-      color:inherit;
-    }
-
-    @media (max-width:767px) {
-      .projects-horizontal h2 {
-        margin-bottom:25px;
-        padding-top:25px;
-        font-size:24px;
-      }
-    }
-
-    .projects-horizontal .intro {
-      font-size:16px;
-      max-width:500px;
-      margin:0 auto 10px;
-    }
-
-    .projects-horizontal .projects {
-      padding-bottom:40px;
-    }
-
-    .projects-horizontal .item {
-      padding-top:60px;
-      min-height:160px;
-    }
-
-    @media (max-width:767px) {
-      .projects-horizontal .item {
-        padding-top:40px;
-        min-height:160px;
-      }
-    }
-
-    .projects-horizontal .item .name {
-      font-size:18px;
-      font-weight:bold;
-      margin-top:10px;
-      margin-bottom:15px;
-      color:inherit;
-    }
-
-    @media (max-width:991px) {
-      .projects-horizontal .item .name {
-        margin-top:22px;
-      }
-    }
-
-    .projects-horizontal .item .description {
-      font-size:15px;
-      margin-bottom:0;
-    }
-
-    </style>
-    <style>.navigation-clean {
-      background:#fff;
-      padding-top:.75rem;
-      padding-bottom:.75rem;
-      color:#333;
-      border-radius:0;
-      box-shadow:none;
-      border:none;
-      margin-bottom:0;
-    }
-
-    @media (min-width:768px) {
-      .navigation-clean {
-        padding-top:1rem;
-        padding-bottom:1rem;
-      }
-    }
-
-    .navigation-clean .navbar-brand {
-      font-weight:bold;
-      color:inherit;
-    }
-
-    .navigation-clean .navbar-brand:hover {
-      color:#222;
-    }
-
-    .navigation-clean .navbar-toggler {
-      border-color:#ddd;
-    }
-
-    .navigation-clean .navbar-toggler:hover, .navigation-clean .navbar-toggler:focus {
-      background:none;
-    }
-
-    .navigation-clean .navbar-toggler {
-      color:#888;
-    }
-
-    .navigation-clean .navbar-collapse, .navigation-clean .form-inline {
-      border-top-color:#ddd;
-    }
-
-    .navigation-clean.navbar-light .navbar-nav .nav-link.active, .navigation-clean.navbar-light .navbar-nav .nav-link.active:focus, .navigation-clean.navbar-light .navbar-nav .nav-link.active:hover {
-      color:#8f8f8f;
-      box-shadow:none;
-      background:none;
-      pointer-events:none;
-    }
-
-    .navigation-clean.navbar .navbar-nav .nav-link {
-      padding-left:18px;
-      padding-right:18px;
-    }
-
-    .navigation-clean.navbar-light .navbar-nav .nav-link {
-      color:#465765;
-    }
-
-    .navigation-clean.navbar-light .navbar-nav .nav-link:focus, .navigation-clean.navbar-light .navbar-nav .nav-link:hover {
-      color:#37434d !important;
-      background-color:transparent;
-    }
-
-    .navigation-clean .navbar-nav > li > .dropdown-menu {
-      margin-top:-5px;
-      box-shadow:none;
-      background-color:#fff;
-      border-radius:2px;
-    }
-
-    .navigation-clean .dropdown-menu .dropdown-item:focus, .navigation-clean .dropdown-menu .dropdown-item {
-      line-height:2;
-      color:#37434d;
-    }
-
-    .navigation-clean .dropdown-menu .dropdown-item:focus, .navigation-clean .dropdown-menu .dropdown-item:hover {
-      background:#eee;
-      color:inherit;
-    }
-
-    </style>
-    <style>.highlight-clean {
-      color:#313437;
-      background-color:#fff;
-      padding:50px 0;
-    }
-
-    .highlight-clean p {
-      color:#7d8285;
-    }
-
-    .highlight-clean h2 {
-      font-weight:bold;
-      margin-bottom:25px;
-      line-height:1.5;
-      padding-top:0;
-      margin-top:0;
-      color:inherit;
-    }
-
-    .highlight-clean .intro {
-      font-size:16px;
-      max-width:500px;
-      margin:0 auto 25px;
-    }
-
-    .highlight-clean .buttons {
-      text-align:center;
-    }
-
-    .highlight-clean .buttons .btn {
-      padding:16px 32px;
-      margin:6px;
-      border:none;
-      background:none;
-      box-shadow:none;
-      text-shadow:none;
-      opacity:0.9;
-      text-transform:uppercase;
-      font-weight:bold;
-      font-size:13px;
-      letter-spacing:0.4px;
-      line-height:1;
-      outline:none;
-      background-color:#ddd;
-    }
-
-    .highlight-clean .buttons .btn:hover {
-      opacity:1;
-    }
-
-    .highlight-clean .buttons .btn:active {
-      transform:translateY(1px);
-    }
-
-    .highlight-clean .buttons .btn-primary {
-      background-color:#055ada;
-      color:#fff;
-    }
-
-    </style>
-    <style>.footer-basic {
-      padding:40px 0;
-      background-color:#ffffff;
-      color:#4b4c4d;
-    }
-
-    .footer-basic ul {
-      padding:0;
-      list-style:none;
-      text-align:center;
-      font-size:18px;
-      line-height:1.6;
-      margin-bottom:0;
-    }
-
-    .footer-basic li {
-      padding:0 10px;
-    }
-
-    .footer-basic ul a {
-      color:inherit;
-      text-decoration:none;
-      opacity:0.8;
-    }
-
-    .footer-basic ul a:hover {
-      opacity:1;
-    }
-
-    .footer-basic .social {
-      text-align:center;
-      padding-bottom:25px;
-    }
-
-    .footer-basic .social > a {
-      font-size:24px;
-      width:40px;
-      height:40px;
-      line-height:40px;
-      display:inline-block;
-      text-align:center;
-      border-radius:50%;
-      border:1px solid #ccc;
-      margin:0 8px;
-      color:inherit;
-      opacity:0.75;
-    }
-
-    .footer-basic .social > a:hover {
-      opacity:0.9;
-    }
-
-    .footer-basic .copyright {
-      margin-top:15px;
-      text-align:center;
-      font-size:13px;
-      color:#aaa;
-      margin-bottom:0;
-    }
-    </style>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<style media="screen">
-.img-fluid {
-  max-width: 100%;
-  height: auto;
+<style>.highlight-blue {
+  color:#fff;
+  background-color:#1e6add;
+  padding:50px 0;
 }
-.navigation-clean.navbar-light .navbar-nav .nav-link {
-    color: #b7b7b7;
-}
-.card {
-    position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    min-width: 0;
-    word-wrap: break-word;
-    background-color: #fff;
-    background-clip: border-box;
-    border-radius: .25rem;
-    background: #252525;
-    padding: 20px;
-    display: -webkit-inline-box;
-    margin: 20px;
-}.projects-horizontal p {
-    color: #abaeb0;
-}@media (max-width:767px) {
-  .navbar-brand {font-size: 1.15rem;}
-}
-#ADMHF{
-  text-align: center;
+html{    background-color: rgb(31,31,31);}
+.highlight-blue p {
+  color:#c4d5ef;
+  line-height:1.5;
 }
 
-#gradient
-{
-  width: 100%;
+.highlight-blue h2 {
+  font-weight:normal;
+  margin-bottom:25px;
+  line-height:1.5;
+  padding-top:0;
+  margin-top:0;
+  color:inherit;
 }
+
+.highlight-blue .intro {
+  font-size:16px;
+  max-width:500px;
+  margin:0 auto 25px;
+}
+
+.highlight-blue .buttons {
+  text-align:center;
+}
+
+.highlight-blue .buttons .btn {
+  padding:16px 32px;
+  margin:6px;
+  border:none;
+  background:none;
+  box-shadow:none;
+  text-shadow:none;
+  opacity:0.9;
+  text-transform:uppercase;
+  font-weight:bold;
+  font-size:13px;
+  letter-spacing:0.4px;
+  line-height:1;
+}
+
+.highlight-blue .buttons .btn:hover {
+  opacity:1;
+}
+
+.highlight-blue .buttons .btn:active {
+  transform:translateY(1px);
+}
+
+.highlight-blue .buttons .btn-primary, .highlight-blue .buttons .btn-primary:active {
+  border:2px solid rgba(255,255,255,0.7);
+  border-radius:6px;
+  color:#ebeff1;
+  box-shadow:none;
+  text-shadow:none;
+  padding:14px 24px;
+  background:transparent;
+  transition:background-color 0.25s;
+}
+
 </style>
-    </head>
-<body style="  background-color:rgb(44,44,44);
-  color:rgb(204,204,204);
-">
-    <div>
-        <nav class="navbar navbar-light navbar-expand-md navigation-clean" style="  background-color:rgb(37,37,37);
-  color:rgb(238,238,238);
-">
-            <div class="container"><a href="index.html" class="navbar-brand" style="  color:rgb(204,204,204);
-">Australian Depression Movement</a>
-                <button data-toggle="collapse" data-target="#navcol-1" class="navbar-toggler"></button>
-                <div class="collapse navbar-collapse" id="navcol-1">
-                    <ul class="nav navbar-nav ml-auto">
-                        <li role="presentation" class="nav-item"><a href="joinfight.html" class="nav-link">Get Started</a></li>
-                        <li role="presentation" class="nav-item"><a href="supportimages.html" class="nav-link">Gallery</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </div>
-    <div class="projects-horizontal" style="
-    background-repeat: no-repeat;
-    background-size: cover;  color:rgb(204,204,204);
-  background-color:rgb(38, 38, 38);    background-position: center;
-  background: linear-gradient(#252525, #00000091, #00000063), url(sad-505857_1920.jpg) no-repeat center;    background-size: cover;
-  /* background-attachment: fixed; */
-  background-position: bottom;
-  height: 500px;
-
-">
-        <div class="container">
-            <div class="row projects">
-                <div class="col-sm-6 item" style="">
-                    <div class="row">
-                        <div class="col-md-12 col-lg-5">
-                            <a href="#"><img src="ADM_Flag-Dark.png" class="img-fluid"></a>
-                        </div>
-                        <div class="col">
-                            <h3 class="name">Australian Depression Movement<br></h3>
-                            <!-- <p class="description">Australian Depression Movement is a Movement about helping thoughts in need with problems such as suicide and problems in there life... we understand, please call&nbsp;13 11 14 if help is needed -->
-                              <p class="description">Australian Depression Movement is a Movement around making a difference with issues such as suicide in your life, we get it. if it's not too much trouble call 13 11 14 in case you need help.
-                                <br><li role="presentation" style="margin: 5px;
-    list-style: none;
-    margin-left: 0;" class="nav-item"><a href="joinfight.html" class="nav-link" style="    color: #fff;
-    background: #2c2c2c;
-    border-radius: 5px;
-    display: inline-table;">Get Started</a></li>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="highlight-clean" style="  background-color: rgb(37,37,37);
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(pattern.png);
-    background-attachment: fixed;
-">
-        <div class="container">
-            <div class="intro" id="hm">
-                <h2 class="text-center" style="  color:rgb(201,201,201);
-">Need Help?</h2>
-                <p class="text-center" style="    color: #b6b9bb;
-">Lifeline is a national charity providing all Australians experiencing a personal crisis with access to 24 hour crisis support and suicide prevention services.
-                    <br>
-                    Just by talking to a friend or a random person on the street can help, or even family member.
-                </p>
-            </div>
-            <div class="buttons"><a class="btn btn-primary" role="button" href="tel:13 11 14" style="  background-color:rgb(42,42,42);
-">cALL NOW</a>
-                <!-- <button class="btn btn-light" type="button">Help other way</button> -->
-            </div>
-        </div>
-    </div>
-    <div id="ADMHF" style="background: linear-gradient(#252525, #00000091, #00000063), url(solitude-1148983_1920.jpg) no-repeat center;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: bottom;">
-    <div class="card" style="width: 18rem;">
-  <img class="card-img-top" src="Group 1.png" alt="Card image cap">
-  <div class="card-body">
-    <p class="card-text">Fighting For Depression</p>
-  </div>
-</div>
-<div class="card" style="width: 18rem;">
-  <img class="card-img-top" src="Group 2.png" alt="Card image cap">
-  <div class="card-body">
-    <p class="card-text">Help Me Fight Depression</p>
-  </div>
-</div></div>
-    </div><div class="highlight-clean" style="  background-color:rgb(37,37,37);
-">
-        <div class="container">
-            <div class="intro">
-                <h2 class="text-center" style="  color:rgb(201,201,201);
-">Things That Can Help</h2>
-                <p class="text-center">
-                  <li style="    color: #fff;">Don't listen to sad music instead try happy music</li>
-                  <li style="    color: #fff;">Be around fun people</li>
-                  <li style="    color: #fff;">Go out more if you stay home to much</li>
-                  <li style="    color: #fff;">Talk to a random person</li>
-                  <li style="color: #fff;"><a href="https://www.youtube.com/watch?v=_VaexyZSHuA">Help a depressed friend </a>(Not Our Video)</li>
-
-                    <br>
-                </p>
-            </div>
-            <div class="buttons"></div>
-        </div>
-    </div>
-    <div class="footer-basic" style="  background-color:rgb(44,44,44);
-">
-        <footer>
-            <ul class="list-inline">
-                <li class="list-inline-item"><a href="index.html" style="  color:rgb(201,201,201);
-">Home</a></li>
-<li class="list-inline-item"><a href="https://www.patreon.com/AustralianDepressionMovement" style="  color:rgb(201,201,201);
-">Support Us</a></li>
-<li class="list-inline-item"><a href="joinADM.html" style="  color:rgb(201,201,201);
-">Join ADM</a></li>
-<li class="list-inline-item"><a href="schoolList.html" style="  color:rgb(201,201,201);
-">School List</a></li>
-                <!-- <li class="list-inline-item"><a href="#" style="  color:rgb(201,201,201);
-">Privacy Policy</a></li> -->
-            </ul>
-            <p class="copyright">Australian Depression Movement © 2018</p>
-        </footer>
-    </div>
+</head>
+<body>
+<div class="highlight-blue" style="  background-color:rgb(31,31,31);
+  width:100%;
+  height:100%;
+"><div class="container"><div class="intro"><h2 class="text-center">Redesigning Site</h2><p class="text-center">ADM will be back on 8/7/18</p></div><div class="buttons"><a class="btn btn-primary" role="button" href="supportimages.html">Gallery<br></a></div></div></div>
 </body>
 </html>
